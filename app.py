@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hey there!"
+    return "Flutter Developers!"
 
 @app.route("/getData/")
 def getdata():
